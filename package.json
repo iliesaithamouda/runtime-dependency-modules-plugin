@@ -1,0 +1,31 @@
+{
+  "name": "runtime-dependency-modules-plugin",
+  "version": "1.0.1",
+  "description": "the plugin will create a directory that will contains the minimum modules that the application need to run",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iliesaithamouda/runtime-dependency-modules-plugin.git"
+  },
+  "keywords": [
+    "iq-server",
+    "npm",
+    "aot",
+    "scans",
+    "test"
+  ],
+  "author": "ilies ait hamouda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iliesaithamouda/runtime-dependency-modules-plugin/issues"
+  },
+  "homepage": "https://github.com/iliesaithamouda/runtime-dependency-modules-plugin#readme",
+  "dependencies": {
+    "fs-extra": "=8.1.0",
+    "log4js": "^6.1.0",
+    "rimraf": "3.0.0"
+  }
+}
